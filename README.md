@@ -1,14 +1,12 @@
-<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Roee%20Bronfeld&fontSize=40&fontColor=ffffff&fontAlignY=35" />
 
-<div align="center">
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=DevOps+Engineer&width=500&height=50&color=ffffff&size=28&duration=3500&pause=1200" />
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi,%20I'm%20Roee&fontSize=40&fontAlignY=35" />
-
-<img src="https://readme-typing-svg.demolab.com/?lines=DevOps+Engineer&center=true&width=500&height=50&color=ffffff&size=28&duration=3500&pause=1200" />
-
-<img src="https://readme-typing-svg.demolab.com/?lines=AWS+%7C+Kubernetes+%7C+Terraform;Docker+%7C+Ansible+%7C+CI%2FCD;GitOps+%7C+ArgoCD+%7C+Helm&center=true&width=800&height=40&color=ffffff&size=20&duration=3000&pause=1000" />
-
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=AWS+%7C+Kubernetes+%7C+Terraform;Docker+%7C+Ansible+%7C+CI%2FCD;GitOps+%7C+ArgoCD+%7C+Helm&width=800&height=40&color=ffffff&size=20&duration=3000&pause=1000" />
+</p>
 
 ---
 
@@ -17,18 +15,19 @@
 DevOps Engineer focused on building **production-grade cloud infrastructure** using AWS and Kubernetes.
 
 Hands-on experience designing and operating **end-to-end environments**, including:
-- Infrastructure as Code with Terraform
-- Kubernetes clusters (EKS) with real production patterns
-- GitOps workflows using ArgoCD (app-of-apps)
-- CI/CD pipelines with GitHub Actions + OIDC
 
-Built a full environment based on a **single ephemeral stack design** — allowing complete destroy & rebuild with zero manual steps.
+- Infrastructure as Code with Terraform  
+- Kubernetes clusters (EKS) with real production patterns  
+- GitOps workflows using ArgoCD (app-of-apps)  
+- CI/CD pipelines with GitHub Actions + OIDC  
+
+Built a full environment based on a **single ephemeral stack design**, allowing complete destroy & rebuild with zero manual steps.
 
 Background as a **Combat Officer (Lieutenant)**, bringing strong ownership, decision-making, and the ability to perform under pressure.
 
 ---
 
-<div align="center">
+<p align="center">
 
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
@@ -41,47 +40,45 @@ Background as a **Combat Officer (Lieutenant)**, bringing strong ownership, deci
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 
-</div>
+</p>
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Expense Tracker Platform
 
-### 🔧 Expense Tracker - Infrastructure
-Terraform-based AWS infrastructure running on EKS.
+End-to-end DevOps project simulating a **real production environment**, built with a full GitOps workflow and AWS infrastructure.
 
-- Single **ephemeral stack** (destroy → apply with zero manual steps)
-- VPC (multi-AZ), EKS cluster, ECR, IAM roles
-- Pod Identity (no IRSA annotations)
-- ArgoCD bootstrap with GitOps (app-of-apps)
-- CloudWatch + FluentBit logging
-- ACM + Route53 integration
+### 🔧 Infrastructure (Terraform + AWS EKS)
 
-👉 https://github.com/roeebronfeld/expense-tracker-infra
+- Single **ephemeral stack** (destroy → apply with zero manual steps)  
+- VPC (multi-AZ), EKS cluster, ECR, IAM roles  
+- Pod Identity (no IRSA annotations)  
+- CloudWatch + FluentBit logging  
+- ACM + Route53 integration  
 
----
-
-### ⚙️ Expense Tracker - GitOps
-GitOps repository managing Kubernetes deployments.
-
-- ArgoCD app-of-apps structure
-- Helm charts + environment values
-- Platform services (cert-manager, external-secrets, monitoring)
-- Fully declarative cluster management
-
-👉 https://github.com/roeebronfeld/expense-tracker-gitops
+👉 https://github.com/roeebronfeld/expense-tracker-infra  
 
 ---
 
-### 💻 Expense Tracker - Application
-Full-stack application with integrated DevOps pipeline.
+### ⚙️ GitOps (ArgoCD + Helm)
 
-- Backend: Node.js, Express, Prisma
-- Frontend: React, Vite, TypeScript
-- CI/CD: GitHub Actions → ECR → ArgoCD sync
-- Monitoring: Prometheus + Grafana
+- App-of-apps architecture  
+- Environment-based configuration (prod/staging)  
+- Platform services: cert-manager, external-secrets, monitoring  
+- Fully declarative cluster management  
 
-👉 https://github.com/roeebronfeld/expense-tracker-app
+👉 https://github.com/roeebronfeld/expense-tracker-gitops  
+
+---
+
+### 💻 Application (Full Stack)
+
+- Backend: Node.js, Express, Prisma  
+- Frontend: React, Vite, TypeScript  
+- CI/CD: GitHub Actions → ECR → ArgoCD sync  
+- Monitoring: Prometheus + Grafana  
+
+👉 https://github.com/roeebronfeld/expense-tracker-app  
 
 ---
 
@@ -92,8 +89,4 @@ Full-stack application with integrated DevOps pipeline.
 
 ---
 
-<div align="center">
-
 🚀 *Build it. Automate it. Run it in production.*
-
-</div>
