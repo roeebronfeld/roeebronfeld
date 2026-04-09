@@ -56,7 +56,7 @@ End-to-end DevOps project simulating a **real production environment**, built wi
 - CloudWatch + FluentBit logging  
 - ACM + Route53 integration  
 
-👉 https://github.com/roeebronfeld/expense-tracker-infra  
+👉 https://github.com/roeebronfeld/Expense-Tracker-Infra-Public 
 
 ---
 
@@ -67,7 +67,7 @@ End-to-end DevOps project simulating a **real production environment**, built wi
 - Platform services: cert-manager, external-secrets, monitoring  
 - Fully declarative cluster management  
 
-👉 https://github.com/roeebronfeld/expense-tracker-gitops  
+👉 https://github.com/roeebronfeld/Expense-Tracker-gitops-Public
 
 ---
 
@@ -78,7 +78,7 @@ End-to-end DevOps project simulating a **real production environment**, built wi
 - CI/CD: GitHub Actions → ECR → ArgoCD sync  
 - Monitoring: Prometheus + Grafana  
 
-👉 https://github.com/roeebronfeld/expense-tracker-app  
+👉 https://github.com/roeebronfeld/Expense-Tracker-App-Public 
 
 ---
 
