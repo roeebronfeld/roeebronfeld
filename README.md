@@ -12,18 +12,16 @@
 
 ## 🧠 About Me
 
-DevOps Engineer focused on building **production-grade cloud infrastructure** using AWS and Kubernetes.
+DevOps Engineer focused on building **production-grade cloud infrastructure** on AWS & Kubernetes.
 
-Hands-on experience designing and operating **end-to-end environments**, including:
+• Terraform-based Infrastructure (AWS EKS)  
+• GitOps workflows (ArgoCD, Helm)  
+• CI/CD pipelines (GitHub Actions + OIDC)  
+• Monitoring (Prometheus, Grafana)  
 
-- Infrastructure as Code with Terraform  
-- Kubernetes clusters (EKS) with real production patterns  
-- GitOps workflows using ArgoCD (app-of-apps)  
-- CI/CD pipelines with GitHub Actions + OIDC  
+Built a full **end-to-end platform** using a **single ephemeral stack** (destroy & rebuild with zero manual steps).
 
-Built a full environment based on a **single ephemeral stack design**, allowing complete destroy & rebuild with zero manual steps.
-
-Background as a **Combat Officer (Lieutenant)**, bringing strong ownership, decision-making, and the ability to perform under pressure.
+Former **Combat Officer (Lieutenant)** – strong ownership, leadership, and performance under pressure.
 
 ---
 
@@ -46,47 +44,52 @@ Background as a **Combat Officer (Lieutenant)**, bringing strong ownership, deci
 
 ## 🚀 Expense Tracker Platform
 
-End-to-end DevOps project simulating a **real production environment**, built with a full GitOps workflow and AWS infrastructure.
+Production-like DevOps platform built on **AWS EKS**, using a full **GitOps workflow**.
 
-### 🔧 Infrastructure (Terraform + AWS EKS)
-
-- Single **ephemeral stack** (destroy → apply with zero manual steps)  
-- VPC (multi-AZ), EKS cluster, ECR, IAM roles  
-- Pod Identity (no IRSA annotations)  
-- CloudWatch + FluentBit logging  
-- ACM + Route53 integration  
-
-👉 https://github.com/roeebronfeld/Expense-Tracker-Infra-Public 
+Designed for **automation, scalability, and zero-manual-operations infrastructure**.
 
 ---
 
-### ⚙️ GitOps (ArgoCD + Helm)
+## ⚡ Key Highlights
 
-- App-of-apps architecture  
-- Environment-based configuration (prod/staging)  
-- Platform services: cert-manager, external-secrets, monitoring  
-- Fully declarative cluster management  
-
-👉 https://github.com/roeebronfeld/Expense-Tracker-gitops-Public
-
----
-
-### 💻 Application (Full Stack)
-
-- Backend: Node.js, Express, Prisma  
-- Frontend: React, Vite, TypeScript  
-- CI/CD: GitHub Actions → ECR → ArgoCD sync  
-- Monitoring: Prometheus + Grafana  
-
-👉 https://github.com/roeebronfeld/Expense-Tracker-App-Public 
+• Full GitOps architecture (App-of-Apps)  
+• Ephemeral infrastructure (destroy & rebuild)  
+• Secure CI/CD using OIDC (no static credentials)  
+• Production-style Kubernetes environment  
+• End-to-end monitoring stack  
 
 ---
 
-## 🤝 Connect With Me
+## 🏗️ Architecture Overview
 
-- 💼 LinkedIn: https://www.linkedin.com/in/roee-bronfeld  
-- 📧 Email: roybronfeld@gmail.com  
+This platform is composed of 3 main components:
+
+• Infrastructure (Terraform + AWS EKS)  
+• GitOps Layer (ArgoCD + Helm)  
+• Application (Node.js + React)  
+
+All components are fully integrated into a single automated deployment flow.
 
 ---
 
-🚀 *Build it. Automate it. Run it in production.*
+## 🔗 Repositories
+
+• **Infrastructure**  
+https://github.com/roeebronfeld/Expense-Tracker-Infra-Public  
+
+• **GitOps**  
+https://github.com/roeebronfeld/Expense-Tracker-gitops-Public  
+
+• **Application**  
+https://github.com/roeebronfeld/Expense-Tracker-App-Public  
+
+---
+
+## 🤝 Let’s Connect
+
+• LinkedIn → https://www.linkedin.com/in/roee-bronfeld  
+• Email → roybronfeld@gmail.com  
+
+---
+
+🚀 *From code to production — fully automated, scalable, and reproducible.*
